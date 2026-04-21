@@ -1485,15 +1485,15 @@ margin-right: 10px;
 	margin-bottom: 20px;
 }
 .slider-content h2 {
-    font-size: 68px;
+    font-size: 60px;
     line-height: 1.2;
     margin-bottom: 40px;
-    color: #181818;
-    font-weight: 700;
-    font-family: Jost; 
+    color: var(--primary-dark);
+    font-weight: 600;
+    /* font-family: Jost;  */
 }
 .slider-content h2 span {
--webkit-text-stroke: 1px black;
+-webkit-text-stroke: 1px var(--primary-dark);
   -webkit-text-fill-color: transparent;
 }
 
@@ -7549,7 +7549,7 @@ width: 48%;
     color: var(--text-color);
     font-size: 15px;
     border-top: 1px solid #303030;
-    width: 1350px;
+    /* width: 1350px; */
     margin: auto;
 }
 .copyright-wrap .container{
