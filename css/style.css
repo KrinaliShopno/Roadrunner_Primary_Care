@@ -4066,11 +4066,11 @@ border-radius: 50%;
     margin-bottom: 10px;
 } */
 
-.section-title h2 {
+/* .section-title h2 {
     font-size: 42px;
     font-weight: 600;
     color: #1a1a1a;
-}
+} */
 
 /* Card Design */
 .custom-card {
@@ -13729,4 +13729,78 @@ color: var(--text-color)f;
 
 .section-title h5 img{
     width: 40px;
+}
+
+/* Section BG */
+.services-section {
+    background: #f5f2eb;
+}
+
+/* Card */
+.service-card {
+    background: #fff;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid #e5e5e5;
+    transition: 0.3s;
+    height: 100%;
+}
+
+/* Hover */
+.service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+}
+
+/* Top Area */
+.service-card .top {
+    background: #dfe7e3;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-card .top img {
+    width: 55px;
+}
+
+/* Bottom */
+.service-card .bottom {
+    padding: 25px;
+}
+
+.service-card h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+/* Button */
+.btn-main {
+    display: inline-block;
+    padding: 8px 18px;
+    background: #3d6b4f;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 13px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn-main:hover {
+    background: #2e523c;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .service-card .top {
+        height: 120px;
+    }
 }
