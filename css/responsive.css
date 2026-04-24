@@ -200,11 +200,11 @@ background-position: 0 -100px;
     }
     .header-three .logo
 {
-  width: 172px;
-  height: 129px;
-  top: -55px;
-  left: -15px;
-  padding: 16px;
+        width: 260px;
+        height: 77px;
+        top: 0px;
+        left: -15px;
+        padding: 16px;
 }
     .slider-bg2 .slider-content h2 {
   font-size: 65px;
@@ -772,7 +772,7 @@ margin-right: 8px;
   width: 95%;
 }
     .header-three .menu-area {
-  margin-top: 0;
+  margin-top: 40px;
         margin-bottom: 0;   
         padding: 25px 0;
         background: #fff;
@@ -1875,7 +1875,7 @@ margin: -120px -150px 100px;
         margin-top: -50px;
     }
      .mean-container a.meanmenu-reveal {
-  margin-top: -48px;
+  margin-top: -55px;
     }
 	 .menu .sub-menu {
     border-top: 1px solid rgb(217, 217, 217, 0.5);
@@ -2079,7 +2079,7 @@ display: inline-block;
         margin-bottom: 15px;
 }
     .newslater-area img{
-        margin-bottom: 50px;'
+        margin-bottom: 50px;
     }
     .adim-box{
         margin-bottom: 30px;
@@ -2310,10 +2310,10 @@ padding-left: 0;
     width: auto;
 }
     .header-three .logo{
-       width: 65%;
-    height: 60px;
-    top: 0;
-    position: relative;
+          width: 80%;
+        height: 70px;
+        top: 0;
+        position: relative;
     }
     .header-three .sticky-menu .logo{
         height: 60px;
@@ -2547,7 +2547,7 @@ border-bottom: none;
 	padding-right: 0;
 }
 .section-title h2 {
-	font-size: 40px;
+	font-size: 30px;
 	text-align: center;
 }
     .cta-title h2{
@@ -3032,4 +3032,5 @@ padding: 25px;
     .button-group button {
     margin: 0 2px;
 
+}
 }
