@@ -4469,7 +4469,8 @@ display: inline-block;
 }
 /* Section BG */
 .work-process1 {
-    background: #f5f2eb;
+    /* background: #f5f2eb; */
+    position: relative;
 }
 
 /* Cards */
